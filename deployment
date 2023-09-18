@@ -16,3 +16,7 @@ spec:
         app: httpd
     spec:
       containers:
+        - name: httpd-container-nautilus
+          image: httpd:latest
+          ports:
+            - containerPort: 80
